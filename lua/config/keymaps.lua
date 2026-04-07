@@ -11,9 +11,9 @@ vim.keymap.set("n", "<leader>u", ":UndotreeToggle<CR>", { desc = "Toggle Undo Tr
 vim.keymap.set("n", "<leader>pv", ":Ex<CR>")
 
 -- Format code (uses LSP)
-vim.keymap.set("n", "<leader>f", function()
-  vim.lsp.buf.format()
-end)
+-- vim.keymap.set("n", "<leader>f", function()
+--   vim.lsp.buf.format()
+-- end)
 
 -- Go to definition
 vim.keymap.set("n", "gd", vim.lsp.buf.definition)
